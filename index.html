@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Weather Journal App</title>
+</head>
+<body>
+    <h1>Weather Journal App</h1>
+    <label for="zip">Enter the zip of your Country</label>
+    <input id="zip" name="zip">
+    <textarea id="feelings" placeholder="Enter your Feelings" rows="6" ></textarea>
+    <p id="error">Please fill these fields</p>
+    <button id = "generate">Generate</button>
+    <div id="entryHolder" class="entryHolder">
+        <div id="date"></div>
+        <div id="temp"></div>
+        <div id="content"></div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

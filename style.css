@@ -1,0 +1,67 @@
+body *{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(28, 234, 241);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 100%;
+}
+h1{
+    color: rgb(246, 245, 247);
+    width: 90%;
+    text-align: center;
+}
+p{
+    /* display: none; */
+    width: 50%;
+    background-color: rgb(204, 248, 154);
+    color:rgb(10, 25, 160);
+    border: 0;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 10px rgba(242, 241, 243, 0.2);
+}
+label{
+    color: rgb(115, 13, 209);
+    width: 50%;
+    text-align: left;
+    font-size: 1.5rem;
+
+}
+input,textarea,button{
+    width: 50%;
+    background-color: cornsilk;
+    border: 0;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 10px rgba(242, 241, 243, 0.2);
+    
+}
+button{
+    background-color: rgb(209, 165, 203);
+    color:rgb(3, 3, 22);
+    cursor: pointer;
+}
+#entryHolder{
+    background-color: bisque;
+    width: 50%;
+    min-height:200px ;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    padding: 0.5rem 1rem;
+}
+@media screen and (max-width:700px) {
+    label,input,textarea,button,#entryHolder{
+        width: 90%;
+    }
+}
